@@ -1,3 +1,7 @@
+<?php  
+	include 'modular.html';
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -41,43 +45,6 @@
 	</style>
 </head>
 <body>
-	<nav>
-		<center>
-		<table id='TITLE'>
-			<tr>
-				<td>Information Academy</td>
-			</tr>
-		</table>
-		<table id='home'>
-			<tr>
-				<td><a href='IAhome.html'>Home</a></td>
-			</tr>
-		</table>
-
-		<table id='about'>
-			<tr>
-				<td><a href="IAabout.html">About</a></td>
-			</tr>
-		</table>
-
-		<table id='lessons'>
-			<tr>
-				<td id='onpage'>Lessons</td>
-			</tr>
-		</table>
-
-		<table id='store'>
-			<tr>
-				<td><a href='IAstore.html'>Store</a></td>
-			</tr>
-		</table>
-
-		<table id='contact'>
-			<tr>
-				<td><a href='IAcontact.html'>Contact</a></td>
-			</tr>
-		</table>
-	</nav>
 	<center>
 		<h1><u>Information Academy</u></h1>
 		<h2>Lessons:</h2>
