@@ -1,3 +1,7 @@
+<?php  
+	include 'modular.html';
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -5,6 +9,9 @@
 	<title>IA Home</title>
 	<link rel="stylesheet" type="text/css" href="IAstyle.css">
 	<style type="text/css">
+		#home {
+			color: #999;
+		}
 		h3 {
 			margin: 1% 0 0 25%;
 			color: rgb(255, 255, 255);
@@ -25,43 +32,6 @@
 	</style>
 </head>
 <body>
-	<nav>
-		<center>
-		<table id='TITLE'>
-			<tr>
-				<td>Information Academy</td>
-			</tr>
-		</table>
-		<table id='home'>
-			<tr>
-				<td id='onpage'>Home</td>
-			</tr>
-		</table>
-
-		<table id='about'>
-			<tr>
-				<td><a href="IAabout.html">About</a></td>
-			</tr>
-		</table>
-
-		<table id='lessons'>
-			<tr>
-				<td><a href="IAlessons.html">Lessons</a></td>
-			</tr>
-		</table>
-
-		<table id='store'>
-			<tr>
-				<td><a href='#'>Store</a></td>
-			</tr>
-		</table>
-
-		<table id='contact'>
-			<tr>
-				<td><a href='#'>Contact</a></td>
-			</tr>
-		</table>
-	</nav>
 	<center>
 		<h1><u>Information Academy</u></h1>
 		<h2>The Finest Christian Education On The Web!</h2>
