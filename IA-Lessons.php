@@ -3,108 +3,55 @@
 ?>
 
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
 	<meta charset="utf-8">
 	<title>IA Lessons</title>
 	<link rel="stylesheet" type="text/css" href="IAstyle.css">
 	<style type="text/css">
-	#python {
-		margin-left: 7.5%;
-	}
-	#raspberry {
-		margin-left: 60%;
-		margin-top: -9%;
-	}
-	#html{
-		margin-top: 3%;
-		margin-left: 5%;
-	}
-	#javascript {
-		margin-left: 61.5%;
-		margin-top: -9%;
-	}
-	#php {
-		margin-left: 11%;
-	}
-	#mysql {
-		margin-left: 64%;
-		margin-top: -9%;
-	}
-	#beg {
-		margin-left: 10%;
-		position: absolute;
-	}
-	#ad {
-		margin-left: 70%;
-	}
-	.line {
-		border-right: red 2px solid;
-		width: 50%;
-	}
+		.subject {
+			color: rgb(255, 0, 0);
+			margin-top: 1%;
+		}
+		.container {
+			border: rgb(0, 100, 255) 1px solid;
+			padding: 2%;
+			margin-top: 2%;
+		}
+		h3 {
+			margin-top: 0.5%;
+		}
 	</style>
 </head>
 <body>
 	<center>
 		<h1><u>Information Academy</u></h1>
 		<h2>Lessons:</h2>
-	</center>
 		<div class='content'>
 			<h2 id='header'>Lessons:</h2>
-			<table id='beg'>
-				<tr>
-					<td><h2><u>Beginner</u></h2></td>
-				</tr>
-			</table>
 
-			<table id='ad'>
-				<tr>
-					<td><h2><u>Advanced</h2></u></td>
-				</tr>
-			</table>
-
-			<div class='line'>
-				<table id='python'>
-					<tr>
-						<td><button>Python Lessons</button></td>
-					</tr>
-				</table>
+			<div class='container'>
+				<h2 class='subject'>Software Engineering</h2>
+					<h3><a href="#">Python Lessons</a></h3>
+					<h3><a href="#">Java Lessons</a></h3>
+					<h3><a href="#">C++ Lessons</a></h3>
 			</div>
 
-			<table id='raspberry'>
-				<tr>
-					<td><button>Raspberry Pi Lessons</button></td>
-				</tr>
-			</table>
-
-			<div class='line'>
-				<table id='html'>
-					<tr>
-						<td><button>HTML/CSS Lessons</button></td>
-					</tr>
-				</table>
+			<div class='container'>
+				<h2 class='subject'>Electrical Engineering</h2>
+					<h3><a href="#">Arduino Lessons</a></h3>
+					<h3><a href="#">Raspberry Pi Lessons</a></h3>
 			</div>
 
-			<table id='javascript'>
-				<tr>
-					<td><button>JavaScript Lessons</button></td>
-				</tr>
-			</table>
-
-			<div class='line'>
-				<table id='php'>
-					<tr>
-						<td><button>PHP Lessons</button></td>
-					</tr>
-				</table>
+			<div class='container'>
+				<h2 class='subject'>Web-Development</h2>
+					<h3><a href="#">HTML Lessons</a></h3>
+					<h3><a href="#">CSS Lessons</a></h3>
+					<h3><a href="#">JavaScript Lessons</a></h3>
+					<h3><a href="#">PHP Lessons</a></h3>
 			</div>
-
-			<table id='mysql'>
-				<tr>
-					<td><button>MySQL Lessons</button></td>
-				</tr>
-			</table>
 		</div>
-	<footer>Information Academy  |  Created By: Joey Burgee</footer>
+	</center>
+	<footer>Information Academy 2017  |  Created By: Joey Burgee</footer>
 </body>
 </html>
