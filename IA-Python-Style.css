@@ -2,7 +2,7 @@ p {
 	width: 50%;
 	padding: 2%;
 	margin-top: 2%;
-	color: white;
+	color: rgb(255, 255, 255);
 	border: rgb(0, 100, 255) 1px solid;
 	font-family: sans-serif;
 }
